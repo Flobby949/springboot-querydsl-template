@@ -1,0 +1,16 @@
+server:
+  port: 8090
+  servlet:
+    context-path: /backend-template
+
+spring:
+  application:
+    name: backend-template
+  profiles:
+    active: dev
+
+# ????????
+auth:
+  ignore_urls:
+    - /common/test
+    - /auth/login
